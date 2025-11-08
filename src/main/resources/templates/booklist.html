@@ -17,7 +17,15 @@
         </thead>
         <tbody>
             <tr th:each="b : ${books}">
-                <td th:text="${b.title}">Sagan om ringen</td>
+                
+                <td>
+                    <span th:text="${b.title}">Sagan om ringen</span>
+                    
+                    <span th:if="${b.author == 'Mario'}" 
+                          style="color: green; font-weight: bold; margin-left: 10px;">
+                        (Recommended by Mario!)
+                    </span>
+                </td>
                 <td th:text="${b.author}">Tolkien</td>
                 <td th:text="${b.genre}">Fantasy</td>
             </tr>
