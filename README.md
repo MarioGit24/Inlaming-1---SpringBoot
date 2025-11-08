@@ -13,7 +13,6 @@ För att köra projektet behöver du ha följande installerat:
 ## ⚙️ Så här kör du projektet
 
 1.  **Klona ner projektet**
-    (Eftersom detta är ett privat repo måste du först ha accepterat inbjudan som "Collaborator".)
     ```bash
     git clone [https://github.com/ditt-användarnamn/ditt-repo-namn.git](https://github.com/ditt-användarnamn/ditt-repo-namn.git)
     ```
